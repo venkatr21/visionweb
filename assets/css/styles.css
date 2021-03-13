@@ -73,8 +73,7 @@
 }
 
 .team-hover:hover {
-  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
 }
 .team-members h3 {
   margin-top: 25px;
