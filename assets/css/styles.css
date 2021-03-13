@@ -1,0 +1,128 @@
+.inside-container {
+  max-width: 1230px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  h2 {
+    font-size: 35px !important;
+    line-height: 50px !important;
+  }
+  p {
+    width: 100% !important;
+  }
+}
+
+.icon-img {
+  text-align: center;
+}
+
+.main-container {
+  max-width: 1950px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.team-section {
+  padding: 160px 0px;
+}
+.detail-team {
+  text-align: center;
+}
+.detail-team h2 {
+  font-family: Dosis-bold;
+  font-size: 44px;
+  line-height: 26px;
+}
+.detail-team h2 em {
+  font-family: Dosis-bold;
+  font-size: 44px;
+  line-height: 26px;
+  font-style: normal;
+  color: #f4813f;
+}
+.detail-team hr {
+  width: 117px;
+  height: 2px;
+  margin: 27px auto;
+  background-color: #53c5d5;
+}
+.detail-team p {
+  font-family: Dosis Regular;
+  font-size: 22px;
+  line-height: 35px;
+  width: 50%;
+  margin: 0 auto;
+}
+.team-members {
+  margin-top: 80px;
+  text-align: center;
+}
+.team-members img {
+  border-radius: 50% !important;
+}
+.team-hover {
+  max-width: 270px;
+  max-height: 270px;
+  padding: 0;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.team-hover:hover {
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.team-members h3 {
+  margin-top: 25px;
+  font-family: Dosis-bold;
+  font-size: 25px;
+  line-height: 26px;
+  color: #262626;
+}
+.team-members .team-role {
+  font-family: Dosis-bold;
+  font-size: 15px;
+  line-height: 26px;
+  color: #666666;
+}
+.team-members .team-desc {
+  width: 94%;
+  margin: 0 auto;
+}
+.icon-team i {
+  font-size: 18px;
+  margin: 25px 6px;
+}
+.icon-team i:hover {
+  color: #53c5d5;
+  cursor: pointer;
+}
+
+.person img {
+  text-align: center;
+  max-width: 120px;
+}
+.person .name {
+  font-family: Dosis-bold;
+  margin: 0 30px;
+}
+.person h3 {
+  font-size: 25px;
+  line-height: 26px;
+  margin-bottom: 13px;
+}
+.person p {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+.person a {
+  color: #53c5d5;
+}
+.person a:hover {
+  color: #53c5d5;
+}

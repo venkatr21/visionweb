@@ -244,14 +244,18 @@ button.main-button:hover {
 }
 
 .center-heading h2 {
+  font-family: Dosis-bold;
   margin-top: 0px;
   text-align: center;
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 44px;
   color: #1e1e1e;
   margin-bottom: 25px;
 }
-
+.center-heading hr {
+  width: 150px;
+  height: 2px;
+  background-color: #53c5d5;
+}
 .center-heading h2 em {
   font-style: normal;
   color: #f4813f;
