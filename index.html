@@ -77,7 +77,7 @@
                     <div class="features-item">
                         <div class="features-icon">
                             <h2>01</h2>
-                            <img src="assets/images/surrounding.png" alt="">
+                            <img src="assets/images/surrounding.PNG" alt="">
                             <h4>Surrounding Assistance</h4>
                             <p>Seamlessly describe the surrounding around the user in realtime.</p>
                             <!-- <a href="#testimonials" class="main-button">
@@ -91,7 +91,7 @@
                     <div class="features-item">
                         <div class="features-icon">
                             <h2>02</h2>
-                            <img src="assets/images/text.png" alt="">
+                            <img src="assets/images/text.PNG" alt="">
                             <h4>Text Assistance</h4>
                             <p>Use state of the art technologies to narrate text to the user.</p>
                             <!-- <a href="#testimonials" class="main-button">
@@ -173,7 +173,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="assets/images/kannan.png" alt="Author One"></i>
+                                <i><img src="assets/images/kannan.PNG" alt="Author One"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -256,7 +256,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="contact-form">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="" method="GET">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <fieldset>
@@ -318,7 +318,7 @@
             var message = document.getElementById('message').value;
             var body = "Name: " + name + " | Email: " + email + " | Message: " + message;
             var compose = "mailto:tarun.ambili123@gmail.com?subject=Request Beta Testing :Vision&body=" + body;
-            window.location.replace(compose);
+            window.location.replace(compose,'_blank');
         }
         var formSubmit = document.getElementById('form-submit');
         formSubmit.addEventListener('click', function () {
